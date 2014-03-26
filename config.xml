@@ -6,12 +6,12 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Radio Espinosa Merindades</name>
+    <name>prueba podcast</name>
 
 	
     
 	<description>
-       Radio Espinosa Merindades en tu móvil
+       Prueba podcast
     </description>
 
     <author href="http://www.radioespinosamerindades.es" email="joserra.o@gmail.com">
@@ -39,6 +39,7 @@
 	<feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
+    	<gap:plugin name="org.apache.cordova.media" />
 	<access origin="http://platform.twitter.com" subdomains="true" />
 	<access origin="http://platform.facebook.com" subdomains="true" />
 	<access origin="https://www.facebook.com" subdomains="true" />
