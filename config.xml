@@ -10,8 +10,8 @@
 
 	
     
-	<description>
-       Prueba podcast
+    <description>
+      		Fiestas Espinosa
     </description>
 
     <author href="http://www.oyanguren.org" email="joserra.o@gmail.com">
@@ -25,31 +25,12 @@
 	<preference name="SplashScreenDelay" value="7000"/>
 	<icon src="img/icon.png" />
 	
-    <gap:splash src="img/splash.png" gap:platform="android" gap:density="ldpi" value="500000" />
+        <gap:splash src="img/splash.png" gap:platform="android" gap:density="ldpi" value="500000" />
 	<gap:splash src="img/splash.png" gap:platform="android" gap:density="mdpi" value="500000" />
 	<gap:splash src="img/splash.png" gap:platform="android" gap:density="hdpi" value="500000" />
 	<gap:splash src="img/splash.png" gap:platform="android" gap:density="xhdpi" value="500000" />
 	
-	<gap:plugin name="org.apache.cordova.core.dialogs" />
-	<gap:plugin name="org.apache.cordova.core.device" />
-  	<gap:plugin name="org.apache.cordova.core.device-motion" />
-	<gap:plugin name="nl.x-services.plugins.launchmyapp">
-    	<param name="URL_SCHEME" value="..." />
-	</gap:plugin>
-	<feature name="App">
-        <param name="android-package" value="org.apache.cordova.App" />
-    </feature>
-    	<gap:plugin name="org.apache.cordova.media" />
-	<access origin="http://platform.twitter.com" subdomains="true" />
-	<access origin="http://platform.facebook.com" subdomains="true" />
-	<access origin="https://www.facebook.com" subdomains="true" />
-    <access origin="http://icecast.org" subdomains="true" />
-	<access origin="http://cdn.syndication.twimg.com" subdomains="true" />
-    <access origin="http://pbs.twimg.com" subdomains="true" />
-    <access origin="http://twitter.com" subdomains="true" />
-    <access origin="http://syndication.twitter.com" subdomains="true" />
-    <access origin="http://query.yahooapis.com" subdomains="true" />
-    
-	
+	<access origin="*" />
+    	
 
 </widget>
