@@ -7251,13 +7251,13 @@ $.fn.grid = function( options ) {
 				grid: null
 			}, options ),
 			$kids = $this.children(),
-			gridCols = { solo:1, a:2, b:3, c:4, d:5 },
+			gridCols = { solo:1, a:2, b:3, c:4, d:5, e:6, f:7},
 			grid = o.grid,
 			iterator,
 			letter;
 
 			if ( !grid ) {
-				if ( $kids.length <= 5 ) {
+				if ( $kids.length <= 7 ) {
 					for ( letter in gridCols ) {
 						if ( gridCols[ letter ] === $kids.length ) {
 							grid = letter;
@@ -7286,6 +7286,13 @@ $.fn.grid = function( options ) {
 		if ( iterator > 4 ) {
 			$kids.filter( ":nth-child(" + iterator + "n+5)" ).addClass( "ui-block-e" );
 		}
+		if ( iterator > 5 ) {
+			$kids.filter( ":nth-child(" + iterator + "n+6)" ).addClass( "ui-block-f" );
+        }
+        if ( iterator > 6 ) {
+			$kids.filter( ":nth-child(" + iterator + "n+7)" ).addClass( "ui-block-g" );
+        }
+
 	});
 };
 })( jQuery );

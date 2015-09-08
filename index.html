@@ -2,13 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Radio Espinosa Merindades</title>
+    <title>Fiestas Espinosa 2015</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/reproductor.css">
+      <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" /> 
+    
+    
     <link rel="stylesheet" href="css/jquery.mobile-1.4.2.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="phonegap.js"></script>
-	<script src="js/jquery.js"></script>
+   	<script src="js/jquery.js"></script>
     <script src="js/jquery.mobile-1.4.2.js"></script>
     <script>
         $( document ).on( "pagecreate", function() {
@@ -34,274 +36,828 @@ $(document).ready(function() {
 
 });
 	</script>
+    <script>
+	window.addEventListener('load',function() {
+	setTimeout(function(){
+	window.scrollTo(0, 1);
+	}, 0);
+	});
+	</script>
 		
 </head>
 <body>
 
     <div data-role="header" data-position="fixed" data-theme="b">
-        <h1>Radio Espinosa<br>Merindades</h1>
-        <a href="#outside" data-icon="bars">Menú</a>
+      <h1>Fiestas de Espinosa de los Monteros</h1>
+      
         <a href="#" id="salida" data-role="button" data-iconpos="right" data-icon="delete" onclick="navigator.app.exitApp(); $.fntParar()";>Cerrar</a>
       
      <!--  <a onclick="ShowExitDialog();" data-icon="delete" href="#">Cerrar</a>
         <input type=button value="Cierrate de una puta vez" onclick="ShowExitDialog();">-->
         <div data-role="navbar">
             <ul>
-                <li><a href="#directo" data-transition="pop">En directo</a></li>
-                <li><a href="#programacion" data-transition="pop">Programación</a></li>
-                <li><a href="#blog" onclick="getRSSFeed('http://www.radioespinosamerindades.es/feed/','BlogList');" data-transition="pop">Noticias</a></li>
+                <li><a href="#lunes" data-transition="pop">Programa de fiestas. Del 7 al 13 y del 18 al 20 de Septiembre de 2015</a></li>
             </ul>
         </div>
     </div><!-- /header -->
 
-    <div data-role="page" id="directo">
 
-        <div role="main" class="ui-content">
-		<script type="text/javascript" src="js/reproductor.js"></script>
-        <div style="text-align:center;"><img src="img/radio.png" style="width:90%;"></div>
-<!--Reproductor de la radio-->
-<div id="divContenedor">
-			<div id="divReproductor">
-				
-				<div id="divControles">
-				     <input type="Zbutton" id="btnReproducir" title="Reproducir"  onfocus="blur();" style="opacity: 1;">
-                     <input type="Zbutton" id="btnPausar" title="Detener/Continuar" onfocus="blur();" style="opacity: 1;">
-				</div>
-				<div align="center" id="divLista">
-					<ol id="olCanciones">
-						<li rel="http://188.165.207.229:8004/live">
-							<strong>Radio Espinosa Merindades en directo</strong>
-						</li>
-				  </ol>
-			   </div>
-			</div>
-		</div>
-			   <br>
-        <p align="justify">
-        En Radio Espinosa Merindades intentamos acercar  a nuestros oyentes todo lo relacionado  con la comarca de las Merindades, bien sea arte, costumbres, naturaleza, inquietudes de nuestros vecinos. También informamos de todo el deporte de la comarca así como eventos y acontecimientos, que suceden en el día a día.</p> <br>     
-        <p align="justify">
-        Queremos que Radio Espinosa Merindades sea un medio plural, abierto y libre donde todo el mundo tenga cabida e intentamos cuidar los pequeños detalles para que algún día lleguemos a ser grandes. Y cuando decimos grandes nos referimos a la otra parte de la emisora tan importante o más que sois vosotros, la audiencia.</p><br>        
-        <p align="justify">
-        Emitimos en el dial 107.5 FM, 87.5 FM para el Valle de Mena y Encartaciones y a través de <a href="http://www.radioespinosamerindades.es">www.radioespinosamerindades.es</a></p><br>        
-        
-        <h2 align="center">¡Vive con nosotros la radio!</h2>
-        
-        <p style="text-align:center;">
-        <a href="https://mobile.twitter.com/radioespinosame" ><img src="img/twitter.png" width="48" style="margin-right:20px;"></a>
-        <a href="https://m.facebook.com/profile.php?id=199612623402536" ><img src="img/facebook.png" width="48" style="margin-right:20px;"></a>
-        <a href="http://instagram.com/radioespinosamerindades" ><img src="img/instagram.jpg" width="48" style="margin-right:20px;"></a>
-        </p>
-
-        </div><!-- /content -->
-
+<div data-role="page" id="lunes" data-theme="a">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#lunes" class="ui-state-disabled">L7</a></li>
+				<li><a href="#martes">M8</a></li>
+                <li><a href="#miercoles">X9</a></li>
+                <li><a href="#jueves">J10</a></li>
+                <li><a href="#viernes">V11</a></li>
+                <li><a href="#sabado">S12</a></li>
+                <li><a href="#domingo">D13</a></li>
+			</ul>
+            <ul>
+				<li><a href="#viernes 18">V18</a></li>
+                <li><a href="#sabado 19">S19</a></li>
+                <li><a href="#domingo 20">D20</a></li>
+			</ul>
+		</div><!-- /navbar -->
+        <div role="main" class="ui-content">         
+            <h2>Lunes 7</h2>
+            <table width="100%" border="0" cellspacing="10">
+              <tr>
+                <td><p>19:30</p>                  </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Ofrenda Floral a la Virgen</strong></p>
+                <p class="subdescription">Desde la Plaza Sancho García hasta la Iglesia de San Nicolás.</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>20:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Proclamación de Reina y Damas</strong></p>
+                <p class="subdescription">Pregón a cargo de la asociación CUNA DE MONTEROS</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>20:30</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Degustación de productos típicos</strong></p>
+                <p class="subdescription">En la Plaza Sancho García. Organizado por la peña "A media noche"</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>00:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Gran Verbena</strong></p>
+                <p class="subdescription">A cargo de la orquesta STANDAR</p><hr></td>
+              </tr>
+              
+            
+            </table>
+        </div>
         <div data-role="footer" data-position="fixed" data-theme="a">
             <div data-role="navbar" class="footer">
-                &copy; Joserra Oyanguren
-            </div>
+            <img src="img/barazul.png" width="400" height="137" alt=""/></div>
         </div><!-- /header -->
 
     </div><!-- /page -->
-
-    <div data-role="page" id="blog">
-
-        <div role="main" class="ui-content">
-
-            <div data-role="collapsible-set" data-theme="a" data-content-theme="a" id="BlogList">
-                Cargando ...
-            </div>
-        </div><!-- /content -->
-
-        <div data-role="footer" data-position="fixed" data-theme="a">
-            <div data-role="navbar" class="footer">
-                &copy; Joserra Oyanguren
-            </div>
-        </div><!-- /header -->
-
-    </div><!-- /page -->
-
-    <div data-role="page" id="programacion">
-
-        <div role="main" class="ui-content">
-            <div style="font-size:12px; padding-left: 50px">
-         		 <h2>Lunes</h2>
-        		<p>09:30-11:00 - El café de la mañana
-                <p>11:00-13:30 - La Mañana
-        		<p>13:30-14:00 - Noticias
-        		<p>16:00-17:00 - Te ponemos al día
-        		<p>17:00-17:30 - Noticias
-        		<p>17:30-18:30 - Estaciones 105.5
-       			<p>19:00-20:30 - Con la venia
-       			<p>21:00-22:30 - Galaxia del Rock
-                <p>00:00-00:30 - Reflexiones de media noche
-                <p>
-                 <h2>Martes</h2>
-        		<p>09:30-11:00 - El café de la mañana
-                <p>11:00-13:30 - La Mañana
-        		<p>13:30-14:00 - Noticias
-        		<p>16:00-17:00 - Te ponemos al día
-        		<p>17:00-17:30 - Noticias
-        		<p>17:30-18:30 - Estaciones 105.5
-       			<p>19:00-22:30 - Los deportes con Tino
-       			<p>22:30-00:00 - Pégale al ruido
-                <p>
-                 <h2>Miércoles</h2>
-        		<p>09:30-11:00 - El café de la mañana
-                <p>11:00-13:30 - La Mañana
-        		<p>13:30-14:00 - Noticias
-        		<p>16:00-17:00 - Te ponemos al día
-        		<p>17:00-17:30 - Noticias
-        		<p>17:30-18:30 - Estaciones 105.5
-       			<p>19:00-20:00 - Deporte Merindades
-       			<p>20:00-21:30 - Huellas en el tiempo
-                <p>22:00-01:30 - Los deportes con Tino (R)
-                <p>
-                 <h2>Jueves</h2>
-        		<p>09:30-11:00 - El café de la mañana
-                <p>11:00-13:30 - La Mañana
-        		<p>13:30-14:00 - Noticias
-        		<p>16:00-17:00 - Te ponemos al día
-        		<p>17:00-17:30 - Noticias
-        		<p>17:30-18:30 - Estaciones 105.5
-       			<p>18:30-19:30 - La voz de la música
-       			<p>20:00-21:00 - Una Giga
-                <p>21:30-23:00 - Merindance
-                <p>23:00-00:30 - Huellas en el tiempo (R)
-                <p>
-                 <h2>Viernes</h2>
-        		<p>09:30-11:00 - El café de la mañana
-                <p>11:00-13:30 - La Mañana
-        		<p>13:30-14:00 - Noticias
-        		<p>16:00-17:00 - Te ponemos al día
-        		<p>17:00-17:30 - Noticias
-        		<p>19:00-18:30 - Estaciones 105.5
-       			<p>18:30-20:30 - Estate al loro
-       			<p>23:00-00:30 - Galaxia del Rock (R)
-                <p>
-                 <h2>Sábado</h2>
-        		<p>11:00-13:30 - La Mañana
-        		<p>19:00-20:00 - La voz de la música (R)
-                <p>23:00-00:30 - Merindance(R)
-                <p>
-                 <h2>Domingo</h2>
-        		<p>10:00-10:30 - Estamos en familia
-        	</div>   
-         </div><!-- /content -->
-
-        <div data-role="footer" data-position="fixed" data-theme="a">
-            <div data-role="navbar" class="footer">
-                &copy; Joserra Oyanguren
-            </div>
-        </div><!-- /header -->
-
-    </div><!-- /page -->
-
-    <div data-role="page" id="redes">
-
-        <div role="main" class="ui-content">
-
-        <p style="text-align:center;">
-        <a href="https://mobile.twitter.com/radioespinosame" ><img src="img/twitter.png" style="margin-right:20px;"></a>
-        <a href="https://m.facebook.com/profile.php?id=199612623402536"><img src="img/facebook.png" style="margin-right:20px;"></a>
-        <a href="http://instagram.com/radioespinosamerindades"><img src="img/instagram.jpg" style="margin-right:20px;"></a>
-        </p>
-
-        </div><!-- /content -->
-
-        <div data-role="footer" data-position="fixed" data-theme="a">
-            <div data-role="navbar" class="footer">
-                &copy; Joserra Oyanguren
-            </div>
-        </div><!-- /header -->
-
-    </div><!-- /page -->
-    
-    <div data-role="page" id="podcast">
-
-        <div role="main" class="ui-content">
-
-        <div data-role="collapsible-set" data-theme="b" data-content-theme="b" id="podcastlist">
-                Cargando ...
-            </div>
-
-        </div><!-- /content -->
-
-        <div data-role="footer" data-position="fixed" data-theme="a">
-            <div data-role="navbar" class="footer">
-                &copy; Joserra Oyanguren
-            </div>
-        </div><!-- /header -->
-
-    </div><!-- /page -->
-
-    <div data-role="page" id="contacto">
-    
-    	<div role="main" class="ui-content">
-        	 <div style="line-height:30px">         	
-			  <p><img src="img/telefono.png" style="vertical-align: middle;" height="24"> 947 143 844</p>
-              <p><img src="img/smartphone.jpg" style="vertical-align: middle;"height="24"> 636 14 17 18</p>
-              <p><img src="img/Mail.png" style="vertical-align: middle;"height="24"> <a href="mailto:radio@radioespinosamerindades.es">radio@radioespinosamerindades.es</a></p>
-              <p><img src="img/whatsapp.jpg" style="vertical-align: middle;"height="24"> 636 14 17 18</p>
-              <p><img src="img/Wordpress.png" style="vertical-align: middle;"height="24"> <a href="http://www.radioespinosamerindades.es" target="_system">www.radioespinosamerindades.es</a></p>             
-              <img src="img/divider.png" width="419" style="vertical-align: middle;"height="1"></p><br>
-              <h2>PUBLICIDAD</h2><br>
-              <p><img src="img/telefono.png" alt="" style="vertical-align: middle;"height="24"> 947 143 843 </p>
-              <p><img src="img/Mail.png" style="vertical-align: middle;"height="24"> <a href="mailto:publicidad@radioespinosamerindades.es">publicidad@radioespinosamerindades.es</a> </p><br>
-              </div>
-              <div style="text-align:justify">El departamento de PUBLICIDAD está a tu disposición a través del teléfono o correo electrónico. Escríbenos o llámanos y nos pondremos en contacto contigo a la mayor brevedad posible.</div>
-          		
           
-        
-        </div><!-- /content -->
-		
+          
+    <div data-role="page" id="martes">
+        <div data-role="navbar">
+			<ul>
+				<li><a href="#lunes">L7</a></li>
+				<li><a href="#martes" class="ui-state-disabled">M8</a></li>
+                <li><a href="#miercoles">X9</a></li>
+                <li><a href="#jueves">J10</a></li>
+                <li><a href="#viernes">V11</a></li>
+                <li><a href="#sabado">S12</a></li>
+                <li><a href="#domingo">D13</a></li>
+			</ul>
+            <ul>
+				<li><a href="#viernes 18">V18</a></li>
+                <li><a href="#sabado 19">S19</a></li>
+                <li><a href="#domingo 20">D20</a></li>
+			</ul>
+		</div><!-- /navbar -->
+            <div role="main" class="ui-content">         
+            <h2>Martes 8</h2>
+            <table width="100%" border="0" cellspacing="10">
+              <tr>
+                <td><p>10:00</p>                  </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Tradicional mercadillo</strong></p>
+                <p class="subdescription">En la Plaza Sancho García</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>11:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Disparo de Cohetes y Dianas</strong></p>
+                <p class="subdescription">A cargo de la peña "Los Monteros"</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>12:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Solemne Misa</strong></p>
+                <p class="subdescription">En honor a la Natividad de Nuestra Señora. En la Iglesia San Nicolás, con asistencia de la Corporación Municipal, Reinas y Damas</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>13:30</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Actuación del grupo de Danzas "El Cuévano"</strong></p>
+                <p class="subdescription">En la Plaza San Nicolás</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>19:30</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Playback Infantil 2015</strong></p>
+                <p class="subdescription">En la Plaza Sancho García</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>21:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Gran Chocolatada "Anti Fracking"</strong></p>
+                <p class="subdescription">En la Plaza Sancho García. Organizada por la peña "Despeñados"</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>23:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Playback 2015</strong></p>
+                <p class="subdescription">En la Plaza Sancho García</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>02:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Gran Verbena</strong></p>
+                <p class="subdescription">Con Macrodiscoteca</p><hr></td>
+              </tr>
+            
+            </table>
+         	</div>
+
+            <div data-role="footer" data-position="fixed" data-theme="a">
+            <div data-role="navbar" class="footer">
+            <img src="img/susana.png" width="400" height="137" alt=""/></div>
+        </div><!-- /header -->
+
+    </div><!-- /page -->   
+            
+    <div data-role="page" id="miercoles">
+        <div data-role="navbar">
+			<ul>
+				<li><a href="#lunes">L7</a></li>
+				<li><a href="#martes">M8</a></li>
+                <li><a href="#miercoles" class="ui-state-disabled">X9</a></li>
+                <li><a href="#jueves">J10</a></li>
+                <li><a href="#viernes">V11</a></li>
+                <li><a href="#sabado">S12</a></li>
+                <li><a href="#domingo">D13</a></li>
+			</ul>
+            <ul>
+				<li><a href="#viernes 18">V18</a></li>
+                <li><a href="#sabado 19">S19</a></li>
+                <li><a href="#domingo 20">D20</a></li>
+			</ul>
+		</div><!-- /navbar -->
+           <div role="main" class="ui-content">         
+            <h2>Miércoles 9</h2>
+            <table width="100%" border="0" cellspacing="10">
+              <tr>
+                <td><p>11:00</p>                  </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Disparo de Cohetes y Dianas</strong></p>
+                <p class="subdescription">En la Plaza Sancho García</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>11:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Disparo de Cohetes y Dianas</strong></p>
+                <p class="subdescription"></p><hr></td>
+              </tr>
+              <tr>
+                <td><p>12:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Juegos Infantiles</strong></p>
+                <p class="subdescription">En la Plaza Sancho García. Organiza la peña "Los Monteros"</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>12:00</p><p>13:30</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Inscripción en el Concurso Infantil de Fotografía"</strong></p>
+                <p class="subdescription">Organizado por la peña "Los que faltaban"</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>17:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Tradicional desfile de Disfraces Infantiles</strong></p>
+                <p class="subdescription">En la Plaza Sancho García</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>17:30</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Quedada de peñas para desfilar a la plaza</strong></p>
+                <p class="subdescription">Frente al centro de salud</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>18:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Entrada de carrozas a la Plaza Sancho García</strong></p>
+                <p class="subdescription">Acompañadas por todas las peñas</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>19:30</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Entrega de premios del Concurso Infantil de Fotografía</strong></p>
+                <p class="subdescription">Organizado por la peña "Los que faltaban"</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>20:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Baile</strong></p>
+                <p class="subdescription">A cargo de la macrodiscoteca Puzzle</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>21:30</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Toro de fuego infantil</strong></p><hr></td>
+              </tr>
+              <tr>
+                <td><p>00:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Gran Verbena</strong></p>
+                <p class="subdescription">A cargo de la macrodiscoteca Puzzle</p>
+                <hr></td>
+              </tr>
+              
+            
+            </table>
+         	</div>
+
         <div data-role="footer" data-position="fixed" data-theme="a">
             <div data-role="navbar" class="footer">
-                &copy; Joserra Oyanguren
             </div>
         </div><!-- /header -->
 
-    </div><!-- /page -->
- 
-<!-- Menú izquierdo-->
-    <div data-role="panel" id="outside" data-theme="b">
-        <ul data-role="listview">
-            <li data-icon="back"><a href="#" data-rel="close">Cerrar menú</a></li>
-            <li><a href="#directo">En directo</a></li>
-            <li><a href="#programacion">Programación</a></li>
-            <li><a href="#blog" onclick="getRSSFeed('http://www.radioespinosamerindades.es/feed/','BlogList');">Noticias</a></li>
-            <hr>
-            <li><a href="#redes">Redes Sociales</a>
-            <li><a href="#contacto">Contacto</a>
-        </ul>
-    </div>
+    </div><!-- /page --> 
+            
+    <div data-role="page" id="jueves">
+        <div data-role="navbar">
+			<ul>
+				<li><a href="#lunes">L7</a></li>
+				<li><a href="#martes">M8</a></li>
+                <li><a href="#miercoles">X9</a></li>
+                <li><a href="#jueves" class="ui-state-disabled">J10</a></li>
+                <li><a href="#viernes">V11</a></li>
+                <li><a href="#sabado">S12</a></li>
+                <li><a href="#domingo">D13</a></li>
+			</ul>
+            <ul>
+				<li><a href="#viernes 18">V18</a></li>
+                <li><a href="#sabado 19">S19</a></li>
+                <li><a href="#domingo 20">D20</a></li>
+			</ul>
+		</div><!-- /navbar -->
+            <div role="main" class="ui-content">         
+            <h2>Jueves 10</h2>
+            <table width="100%" border="0" cellspacing="10">
+              <tr>
+                <td><p>17:00</p>                  </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Desfile de disfraces Infantiles</strong></p>
+                <p class="subdescription">En la Plaza Sancho García. Entrega de premios</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>17:30</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Quedada de peñas para desfilar a la plaza</strong></p>
+                <p class="subdescription">Frente al centro de salud</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>18:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Entrada de carrozas a la Plaza Sancho García</strong></p>
+                <p class="subdescription">Entrega de premios</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>19:00</p></td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Concurso de bocadillos</strong></p>
+                <p class="subdescription">Organizado por las peñas "Ceda el vaso" y &quot;Va a ser que no&quot;</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>19:30</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Baile</strong></p>
+                <p class="subdescription">A cargo de la macrodiscoteca Puzzle</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>20:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Concurso de Pasodobles</strong></p>
+                <p class="subdescription">En la plaza Sancho García. Organizado por las peñas &quot;Despeñados&quot; y &quot;Jarra y Pedal&quot;</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>22:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Toro de fuego infantil</strong></p>
+                <p class="subdescription"></p><hr></td>
+              </tr>
+              
+            
+            </table>
+         	</div>
 
-    <script type="text/javascript">
-      function getRSSFeed(feed,list){
-        // Build the YQL query
-        var qryRSS = 'select * from rss where url='+'"'+feed+'"';
-        // Initiate the YQL query
-        $.getJSON("http://query.yahooapis.com/v1/public/yql",
-          {
-            // These are the settings for your API call
-            q: qryRSS,
-            format: "json"
-          },
+        <div data-role="footer" data-position="fixed" data-theme="a">
+            <div data-role="navbar" class="footer">
+            <img src="img/susana.png" width="400" height="137" alt=""/></div>
+        </div><!-- /header -->
 
-          // Take the data you got from the YQL server and output it to the screen.  The variable "data" holds the JSON you got back from the YQL server.
-          function(data) {
-            $('#'+list).empty();
-            // Just bother with the last 10 entries within the JSON feed
-            for (i=0; i<20; i++)
-              {
-              // Output the blog posts
-			  
-              var content = '<div data-role="collapsible"><h3>'+data.query.results.item[i].title+'</h3><p>'+data.query.results.item[i].description+'</p><br><p><a href="'+data.query.results.item[i].link+'">sigue...</a></p></div>';
-              $('#'+list).append( content ).collapsibleset( "refresh" );
-			  
-			  
-            }
-        });
-      };
-    </script>
+    </div><!-- /page -->     
+        
+    <div data-role="page" id="viernes">
+        <div data-role="navbar">
+			<ul>
+				<li><a href="#lunes">L7</a></li>
+				<li><a href="#martes">M8</a></li>
+                <li><a href="#miercoles">X9</a></li>
+                <li><a href="#jueves">J10</a></li>
+                <li><a href="#viernes" class="ui-state-disabled">V11</a></li>
+                <li><a href="#sabado">S12</a></li>
+                <li><a href="#domingo">D13</a></li>
+			</ul>
+            <ul>
+				<li><a href="#viernes 18">V18</a></li>
+                <li><a href="#sabado 19">S19</a></li>
+                <li><a href="#domingo 20">D20</a></li>
+			</ul>
+		</div><!-- /navbar -->
+      <div role="main" class="ui-content">         
+            <h2>Viernes 11</h2>
+            <table width="100%" border="0" cellspacing="10">
+              <tr>
+                <td><p>17:00</p>                  </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Partido de Fútbol amistoso</strong></p>
+                <p class="subdescription">Trueba C.F. - Alcázar</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>19:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Holi Party</strong></p>
+                <p class="subdescription">En el Pradón. Organiza la peña &quot;A media noche&quot;</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>00:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Gran Verbena</strong></p>
+                <p class="subdescription">A cargo de la orquesta VERSIÓN ORIGINAL</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>04:30</p></td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Macarronada</strong></p>
+                <p class="subdescription">Organizado por las peñas &quot;Despeñados&quot; y &quot;Jarra y Pedal&quot;</p>
+                <hr></td>
+              </tr>
+              
+            
+            </table>
+      </div>
+
+        <div data-role="footer" data-position="fixed" data-theme="a">
+            <div data-role="navbar" class="footer">
+            <img src="img/barazul.png" width="400" height="137" alt=""/></div>
+        </div><!-- /header -->
+
+    </div><!-- /page -->   
+    
+    <div data-role="page" id="sabado">
+        <div data-role="navbar">
+			<ul>
+				<li><a href="#lunes">L7</a></li>
+				<li><a href="#martes">M8</a></li>
+                <li><a href="#miercoles">X9</a></li>
+                <li><a href="#jueves">J10</a></li>
+                <li><a href="#viernes">V11</a></li>
+                <li><a href="#sabado" class="ui-state-disabled">S12</a></li>
+                <li><a href="#domingo">D13</a></li>
+			</ul>
+            <ul>
+				<li><a href="#viernes 18">V18</a></li>
+                <li><a href="#sabado 19">S19</a></li>
+                <li><a href="#domingo 20">D20</a></li>
+			</ul>
+		</div><!-- /navbar -->
+            <div role="main" class="ui-content">         
+            <h2>Sábado 12</h2>
+            <table width="100%" border="0" cellspacing="10">
+              <tr>
+                <td><p>08:00</p>                  </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Gran Concurso de Pucheras</strong></p>
+                <p class="subdescription">En la Plaza Sancho García. Organiza la peña &quot;El Chiringüito&quot;</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>11:30</p><p>14:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Circulación de trenes pequeños</strong></p>
+                <p class="subdescription">En el parque del Marqués de Chiloeches. Gratuito. Organiza la peña "El Chiringüito"</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>16:30</p><p>22:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Continumos con Circulación de trenes pequeños</strong></p>
+                <p class="subdescription">En el parque del Marqués de Chiloeches. Gratuito. Organiza la peña "El Chiringüito"</p>                <hr></td>
+              </tr>
+              <tr>
+                <td><p>17:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Concurso de Mus</strong></p>
+                <p class="subdescription">Organizado por la peña &quot;Ceda el Vaso&quot;</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>17:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Carrera de coches de Radio Control/81Tgas</strong></p>
+                <p class="subdescription">Organizado por la peña &quot;A media noche&quot;</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>19:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Gynkana de peñas</strong></p>
+                <p class="subdescription">En la Plaza Sancho García. Organizada por la peña "Despeñados"</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>21:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Baile</strong></p>
+                <p class="subdescription">A cargo de la orquesta ASSIA</p><hr></td>
+              </tr>
+              <tr>
+                <td><p>22:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Parrillada Anti Fracking</strong></p>
+                <p class="subdescription">En los jardines de la peña &quot;Despeñados&quot;</p><hr></td>
+              </tr>
+               <tr>
+                <td><p>00:30</p></td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Gran Verbena</strong></p>
+                <p class="subdescription">A cargo de la orquesta ASSIA</p><hr></td>
+              </tr>
+            </table>
+         	</div>
+        <div data-role="footer" data-position="fixed" data-theme="a">
+            <div data-role="navbar" class="footer">
+            <img src="img/susana.png" width="400" height="137" alt=""/></div>
+        </div><!-- /header -->
+
+    </div><!-- /page -->         
+        
+    <div data-role="page" id="domingo">
+       <div data-role="navbar">
+			<ul>
+				<li><a href="#lunes">L7</a></li>
+				<li><a href="#martes">M8</a></li>
+                <li><a href="#miercoles">X9</a></li>
+                <li><a href="#jueves">J10</a></li>
+                <li><a href="#viernes">V11</a></li>
+                <li><a href="#sabado">S12</a></li>
+                <li><a href="#domingo" class="ui-state-disabled">D13</a></li>
+			</ul>
+            <ul>
+				<li><a href="#viernes 18">V18</a></li>
+                <li><a href="#sabado 19">S19</a></li>
+                <li><a href="#domingo 20">D20</a></li>
+			</ul>
+		</div><!-- /navbar -->
+            <div role="main" class="ui-content">         
+            <h2>Domingo 13</h2>
+            <table width="100%" border="0" cellspacing="10">
+              <tr>
+                <td><p>12:00</p>                  </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Champi solidario</strong></p>
+                <p class="subdescription">Organizado por la peña &quot;Ceda el Vaso&quot;</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>16:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Campeonato de Tejo</strong></p>
+                <p class="subdescription">Detrás del campo de fútbol Buenos Aires. Organizado por la peña &quot;Colo Cao&quot;</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>18:30</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Dianas y disparos de cohetes</strong></p>
+                <p class="subdescription"></p></td>
+              </tr>
+            
+            </table>
+      </div>
+            <div data-role="footer" data-position="fixed" data-theme="a">
+            <div data-role="navbar" class="footer">
+            <img src="img/barazul.png" width="400" height="137" alt=""/></div>
+        </div><!-- /header -->
+
+
+    </div><!-- /page -->    
+    
+<div data-role="page" id="viernes 18">
+       <div data-role="navbar">
+			<ul>
+				<li><a href="#lunes">L7</a></li>
+				<li><a href="#martes">M8</a></li>
+                <li><a href="#miercoles">X9</a></li>
+                <li><a href="#jueves">J10</a></li>
+                <li><a href="#viernes">V11</a></li>
+                <li><a href="#sabado">S12</a></li>
+                <li><a href="#domingo">D13</a></li>
+			</ul>
+            <ul>
+				<li><a href="#viernes 18" class="ui-state-disabled">V18</a></li>
+                <li><a href="#sabado 19">S19</a></li>
+                <li><a href="#domingo 20">D20</a></li>
+			</ul>
+		</div><!-- /navbar -->
+            <div role="main" class="ui-content">         
+            <h2>Viernes 18</h2>
+            <table width="100%" border="0" cellspacing="10">
+              <tr>
+                <td><p></p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Concurso de Tortillas</strong></p>
+                <p class="subdescription">Organizado por la peña &quot;la Guasa&quot;</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>17:00</p>                  </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Juegos Infantiles</strong></p>
+                <p class="subdescription">Organizados por la peña &quot;Va a ser que no&quot;</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>18:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Concurso de frontón</strong></p>
+                <p class="subdescription">Organizado por la peña &quot;El Pilón&quot;</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>20:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Actuación del &quot;Mago Oliver&quot;</strong></p>
+                <p class="subdescription">En la plaza Sancho García</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>21:30</p></td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Baile</strong></p>
+                <p class="subdescription">A cargo de la macrodiscoteca Raspu</p>
+                <hr></td>
+              </tr>
+               <tr>
+                <td><p>00:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Gran Verbena</strong></p>
+                <p class="subdescription">A cargo de la macrodiscoteca Raspu</p>
+                <hr></td>
+              </tr>
+            
+            </table>
+      </div>
+        <div data-role="footer" data-position="fixed" data-theme="a">
+            <div data-role="navbar" class="footer">
+            <img src="img/susana.png" width="400" height="137" alt=""/></div>
+        </div><!-- /header -->
+
+    </div><!-- /page -->            
+    
+<div data-role="page" id="sabado 19">
+       <div data-role="navbar">
+			<ul>
+				<li><a href="#lunes">L7</a></li>
+				<li><a href="#martes">M8</a></li>
+                <li><a href="#miercoles">X9</a></li>
+                <li><a href="#jueves">J10</a></li>
+                <li><a href="#viernes">V11</a></li>
+                <li><a href="#sabado">S12</a></li>
+                <li><a href="#domingo">D13</a></li>
+			</ul>
+            <ul>
+				<li><a href="#viernes 18">V18</a></li>
+                <li><a href="#sabado 19" class="ui-state-disabled">S19</a></li>
+                <li><a href="#domingo 20">D20</a></li>
+			</ul>
+		</div><!-- /navbar -->
+            <div role="main" class="ui-content">         
+            <h2>Sábado 19</h2>
+            <table width="100%" border="0" cellspacing="10">
+              <tr>
+                <td><p>12:00</p>                  </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Parque infantil con hinchables para los niños</strong></p>
+                <p class="subdescription"></p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>12:00</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>VI Concurso Gastronómico de Paellas Memorial Miguel Montoya</strong></p>
+                <p class="subdescription">En la Plaza Sancho García. Organizado por la peña &quot;La Guasa&quot;</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>12:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Dianas por el pueblo y disparo de cohetes</strong></p>
+                <p class="subdescription"></p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>17:30</p></td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Continuación del parque infantil con hinchables</strong></p>
+                <p class="subdescription"></p>
+                <hr></td>
+              </tr>
+               <tr>
+                <td><p>20:00</p>
+                </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Actuación Coro Ronda &quot;Encinas&quot;</strong></p>
+                <p class="subdescription">En la Plaza Sancho García</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>00:30</p></td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Concierto de los grupos STOCK y CACHO</strong></p>
+                <p class="subdescription"></p>
+                <hr></td>
+              </tr>
+            
+            </table>
+      </div>
+        <div data-role="footer" data-position="fixed" data-theme="a">
+            <div data-role="navbar" class="footer">
+            <img src="img/barazul.png" width="400" height="137" alt=""/></div>
+        </div><!-- /header -->
+
+    </div><!-- /page -->            
+    
+<div data-role="page" id="domingo 20">
+       <div data-role="navbar">
+			<ul>
+				<li><a href="#lunes">L7</a></li>
+				<li><a href="#martes">M8</a></li>
+                <li><a href="#miercoles">X9</a></li>
+                <li><a href="#jueves">J10</a></li>
+                <li><a href="#viernes">V11</a></li>
+                <li><a href="#sabado">S12</a></li>
+                <li><a href="#domingo">D13</a></li>
+			</ul>
+            <ul>
+				<li><a href="#viernes 18">V18</a></li>
+                <li><a href="#sabado 19">S19</a></li>
+                <li><a href="#domingo 20" class="ui-state-disabled">D20</a></li>
+			</ul>
+		</div><!-- /navbar -->
+            <<div role="main" class="ui-content">         
+            <h2>Domingo 20</h2>
+            <table width="100%" border="0" cellspacing="10">
+              <tr>
+                <td><p>12:00</p>                  </td>
+                <td bgcolor="#FFCC00">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Hinchables infantiles</strong></p>
+                <p class="subdescription">En la plaza Sancho García</p>
+                <hr></td>
+              </tr>
+              <tr>
+                <td><p>17:30</p>
+                </td>
+                <td bgcolor="#999999">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td><p><strong>Continuación Parque infantil con hinchables</strong></p>
+                <p class="subdescription"></p>
+                <hr></td>
+              </tr>
+              
+            </table>
+      </div>
+        <div data-role="footer" data-position="fixed" data-theme="a">
+            <div data-role="navbar" class="footer">
+            <img src="img/susana.png" width="400" height="137" alt=""/></div>
+        </div><!-- /header -->
+
+    </div><!-- /page -->                     
+  
     
 </body>
 </html>

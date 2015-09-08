@@ -6,11 +6,11 @@
 	}
 
 .footer {
-	background-color:#CCC;
-	color:#999;
-	position:fixed;
-	bottom:0;
-	width:100%;
+	background-color: #ffffff;
+	color: #FFFFFF;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 	text-align: center;
 	text-shadow: 1px 1px white, -0.5px -0.5px #333;
 }
@@ -51,3 +51,7 @@
 	list-style-type: none;
 }
 
+.subdescription {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.8em;
+}
